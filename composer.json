@@ -1,0 +1,19 @@
+{
+    "name": "chunyang/miaosha",
+    "description": "秒杀",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lilong",
+            "email": "lchunyangl@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/redis": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chunyang\\Miaosha\\": "./src/"
+        }
+    }
+}
